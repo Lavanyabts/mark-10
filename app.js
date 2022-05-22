@@ -33,33 +33,6 @@ function calculateChange(amountToBeReturned) {
     }
 }
 
-/* hideMessage();
-var bill = Number(billAmount.value);
-var cash = Number(cashGiven.value);
-if (bill > 0) {
-    if (cash >= bill) {
-        const returnAmount = cash - bill;
-        calculateChange(returnAmount);
-    }
-    else {
-        showMessage("Cash given can't be less than the bill amount");
-        calculateChange(0);
-    }
-}
-else {
-    showMessage("Invalid bill amount");
-    calculateChange(0);
-}
-});
-
-function calculateChange(returnAmount) {
-for(let i=0; i<availableNotes.length; i++) {
-    const numberOfNotes = Math.trunc( returnAmount / availableNotes[i] );
-    returnAmount %= availableNotes[i];
-    noOfNotes[i].innerText = numberOfNotes;
-}
-} */
-
 function hideMessage() {
     Message.style.display = "none"; 
 } 
